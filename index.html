@@ -3,13 +3,13 @@
 	<meta charset="UTF-8">
 	<title>Giphy API</title>
 
+ <link rel="stylesheet" href="assets/style.css">
  
 <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet">
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
- <link rel="stylesheet" href="assets/style.css">
 
  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 
@@ -18,19 +18,18 @@
 
 
 <body>
+	<div id="headerName">What is your favorite car?</div>
 	<div class="container">
-		<div id="headerName">What is your favorite car?</div>
-			<div id="button-div"></div>
-			<div class="bottom">
-				<div id="gif-div"></div>
 
-				<form id="car-form">
-					<label for="car-input">Add a Car Here!</label>
-					<input type="text" id="car-input"><br>
-					<input id="add-car" type="submit" value="submit">
-				</form>
-			</div> <!-- closes bottom-->
-		</div> <!--closes header-->
+		<div id="button-div"></div>
+		<div class="bottom">
+			<form id="car-form">
+				<label for="car-input">Add a Car Here!</label>
+				<input type="text" id="car-input"><br>
+					<input id="add-car" type="submit" value="SUBMIT">
+			</form>
+			<div id="gif-div"></div>
+		</div> <!-- closes bottom-->
 	</div> <!--closes container-->
 
   	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
